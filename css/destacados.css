@@ -1,0 +1,26 @@
+.destacados {
+    background-color: #dfe2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.destacados h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--titulo-h2);
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--fuente-ceniza-oscuro);
+}
+
+.destacados .destacados__imagen figure {
+    margin: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.destacados .destacados__imagen p {
+    margin-top: 1rem;
+}

@@ -28,6 +28,8 @@
 /* - Footer */
 --background-footer: #333333;
 
+/* - Títulos H2*/
+--titulo-h2: 'Montserrat'
 }
 
 body {
@@ -46,6 +48,6 @@ body {
     max-width: 450px;
     box-sizing: border-box;
     padding: 1rem 2rem;
-    border: 1px solid var(--background-blanco);
+    border: 1px solid var(--boton-rojo);
     border-radius: 5px;
 }
