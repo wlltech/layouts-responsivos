@@ -29,7 +29,8 @@
 --background-footer: #333333;
 
 /* - Títulos H2*/
---titulo-h2: 'Montserrat'
+--titulo-h2: 'Montserrat';
+--parrafo: 'Open Sans';
 }
 
 body {
@@ -50,4 +51,11 @@ body {
     padding: 1rem 2rem;
     border: 1px solid var(--boton-rojo);
     border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }

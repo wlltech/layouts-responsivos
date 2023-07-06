@@ -26,3 +26,30 @@
 .item__texto {
     line-height: normal;
 }
+
+.diferenciales__tiempo {
+    background: url(/img/icono-reloj.png);
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+}
+
+.diferenciales__enfoque {
+    background: url(/img/icono-dinero.png);
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+}
+
+.diferenciales__especialistas {
+    background: url(/img/icono-quimica.png);
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciales {
+        background-color: var(--cinza-claro);
+    }
+    .diferenciales__lista {
+        justify-content: space-around;
+    }
+}
